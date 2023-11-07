@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+alt+k", "q"], "command": "quote_with_marker" },
+]
