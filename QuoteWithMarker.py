@@ -57,10 +57,6 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
                 # Add quote.
                 code_marker_replace += "{quote_char_start}"
 
-                # Insert leading space for non empty lines.
-                if len(line) >= 1:
-                    code_marker_replace += " "
-
                 # Add old line and an linebreak.
                 code_marker_replace += line + "{quote_char_end}\n"
 
