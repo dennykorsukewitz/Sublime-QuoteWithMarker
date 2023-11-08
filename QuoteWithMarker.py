@@ -44,9 +44,9 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
             selection = self.view.substr(region)
 
             # Start custom maker.
-            code_marker_replace = """{quote_char_start} ---{quote_char_end}
-{quote_char_start} {code_marker}{quote_char_end}
-{quote_char_start} ---{quote_char_end}
+            code_marker_replace = """{quote_char_start}---{quote_char_end}
+{quote_char_start}{code_marker}{quote_char_end}
+{quote_char_start}---{quote_char_end}
 """
             # Add QuoteCharStart to every single line.
             for line in selection.split("\n"):
@@ -66,7 +66,7 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
 
             # Add old selection and trailing code marker.
             code_marker_replace += selection
-            code_marker_replace += "\n\n{quote_char_start} ---{quote_char_end}\n"
+            code_marker_replace += "\n\n{quote_char_start}---{quote_char_end}\n"
 
             code_marker_replace = code_marker_replace.replace(
                 "{quote_char_start}", quote_char_start
