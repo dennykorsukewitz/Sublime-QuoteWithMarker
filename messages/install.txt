@@ -20,7 +20,7 @@ Your [Denny Korsukéwitz](https://github.com/dennykorsukewitz) 🚀
 
 -------------------
 
-🌟 Version 0.0.1 🌟 - Feature List
+🌟 Version 1.0.0 🌟 - Feature List
 
 ✔ Automatic quoting with custom markers via keyboard shortcut.
 ✔ The following placeholders have been added for the `quote_code_marker` setting:

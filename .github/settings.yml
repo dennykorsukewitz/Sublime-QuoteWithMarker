@@ -3,13 +3,13 @@ repository:
   name: Sublime-QuoteWithMarker
 
   # A short description of the repository that will show up on GitHub
-  description: This extension quotes the selected area and adds a custom marker to it.
+  description: This package quotes the selected area and adds a custom marker to it.
 
   # A URL with more information about the repository
   homepage: https://dennykorsukewitz.github.io/Sublime-QuoteWithMarker/
 
   # A comma-separated list of topics to set on the repository
-  topics: pages, sublime, sublime-text, sublime-package, quote, workflow
+  topics: pages, sublime, sublime-text, sublime-package, quote, workflow, codemarker, marker, markers, comment, commentline, patch, patcher, diff, compare, helper
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false

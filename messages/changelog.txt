@@ -4,7 +4,7 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 
 ---
 
-Version 0.0.1
+Version 1.0.0
 
 ✔ Initial release of QuoteWithMarker package
 ✔ Automatic quoting with custom markers via keyboard shortcut.
