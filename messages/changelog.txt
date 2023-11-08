@@ -6,10 +6,10 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 
 Version 1.0.0
 
-✔ Initial release of QuoteWithMarker package
-✔ Automatic quoting with custom markers via keyboard shortcut.
-✔ The following placeholders have been added for the `quote_code_marker` setting:
+Initial release of QuoteWithMarker package
 
-- `${year}`   => current year
-- `${month}`  => current month
-- `${day}`    => current day
+- Automatic quoting with custom markers via keyboard shortcut.
+- The following placeholders have been added for the `quote_code_marker` setting:
+    - `${year}`   => current year
+    - `${month}`  => current month
+    - `${day}`    => current day
