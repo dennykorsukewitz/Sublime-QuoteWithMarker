@@ -2,7 +2,7 @@
 
 # QuoteWithMarker
 
-**QuoteWithMarker** is a Sublime Text 2/3 package that quotes the selected area and adds a custom marker to it.
+**QuoteWithMarker** is a Sublime Text package that quotes the selected area and adds a custom marker to it.
 
 | Repository | GitHub | Sublime Text |
 | ------ | ------ | ------ |
