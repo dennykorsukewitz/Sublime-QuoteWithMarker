@@ -24,7 +24,6 @@ There is also a start and end block for better display when merging.
 
 `QuoteWithMarker` can be very useful especially for patch files.
 
-**Shortcut:** ```strg + alt + k, q```<br>
 **Command:**  ```QuoteWithMarker: Quote with Marker.```
 
 ![QuoteWithMarker](doc/images/quotewithmarker.gif)
