@@ -1,10 +1,7 @@
-🌟 Version 1.0.0 🌟
+🌟 Version 1.0.1 🌟
 
-- Automatic quoting with custom markers via keyboard shortcut.
-- The following placeholders have been added for the `quote_code_marker` setting:
-    - `${year}`   => current year
-    - `${month}`  => current month
-    - `${day}`    => current day
+- Updated Main menu and README.md.
+- Added keymaps.
 
 GitHub link - https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker
 

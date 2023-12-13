@@ -4,10 +4,12 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 
 ---
 
+Version 1.0.1
+- Updated Main menu and README.md.
+- Added keymaps.
+
 Version 1.0.0
-
-Initial release of QuoteWithMarker package
-
+- Initial release of QuoteWithMarker package
 - Automatic quoting with custom markers via keyboard shortcut.
 - The following placeholders have been added for the `quote_code_marker` setting:
     - `${year}`   => current year
