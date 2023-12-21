@@ -1,3 +1,4 @@
 {
+    // Code Marker used in QuoteWithMarker function.
     "code_marker": "MyMarker - ${year}.${month}.${day}",
 }
