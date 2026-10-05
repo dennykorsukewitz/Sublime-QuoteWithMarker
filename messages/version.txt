@@ -1,6 +1,6 @@
 🌟 Version 1.0.3 🌟
 
-- Fix: Quote with Marker no longer inserts a marker at the caret when nothing is selected.
+- Fix: with no selection, Quote with Marker quotes the entire line where the caret is (instead of inserting at the caret).
 
 GitHub link - https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker
 

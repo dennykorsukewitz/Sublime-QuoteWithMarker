@@ -37,9 +37,9 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
         replaced = False
         for region in self.view.sel():
 
-            # Skip empty selections.
+            # Use the full line when the caret has no selection.
             if region.empty():
-                continue
+                region = self.view.line(region)
 
             # Get the selected text.
             selection = self.view.substr(region)

@@ -5,7 +5,7 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 ---
 
 Version 1.0.3
-- Fix: skip empty selections (use `continue` instead of invalid `next`); no-op when nothing is selected.
+- Fix: empty caret no longer splits text (`continue` instead of invalid `next`); quotes the full line when nothing is selected.
 
 Version 1.0.2
 - Updated README.md and settings.
