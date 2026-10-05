@@ -1,6 +1,6 @@
-<img align="right" width="150" height="150" alt="QuoteWithMarker" src="doc/images/icon.png">
-
 # QuoteWithMarker
+
+<img align="right" width="150" height="150" alt="QuoteWithMarker" src="doc/images/icon.png">
 
 **QuoteWithMarker** is a Sublime Text package that quotes the selected area and adds a custom marker to it.
 
