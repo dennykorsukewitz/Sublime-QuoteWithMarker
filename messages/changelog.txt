@@ -5,7 +5,7 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 ---
 
 Version 1.0.3
-- Fix: empty caret no longer splits text (`continue` instead of invalid `next`); quotes the full line when nothing is selected.
+- Fix: empty caret no longer splits text (`continue` instead of invalid `next`); quotes the full line when nothing is selected ([#1](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/issues/1)).
 
 Version 1.0.2
 - Updated README.md and settings.

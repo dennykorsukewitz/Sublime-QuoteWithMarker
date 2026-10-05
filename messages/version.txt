@@ -1,6 +1,6 @@
 🌟 Version 1.0.3 🌟
 
-- Fix: with no selection, Quote with Marker quotes the entire line where the caret is (instead of inserting at the caret).
+- Fix: empty caret no longer splits text (`continue` instead of invalid `next`); quotes the full line when nothing is selected ([#1](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/issues/1)).
 
 GitHub link - https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker
 
