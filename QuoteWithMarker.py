@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import datetime
 
 import sublime
 import sublime_plugin
@@ -17,7 +17,7 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
         code_marker_replace = ""
 
         code_marker = settings.get("code_marker") or "MyMarker"
-        current_time = date.today()
+        current_time = datetime.now().astimezone().date()
         day = current_time.strftime("%d")
         month = current_time.strftime("%m")
         year = current_time.strftime("%Y")
@@ -34,11 +34,11 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
                 quote_char_end = " " + var["value"]
 
         # Loop over all selections.
+        replaced = False
         for region in self.view.sel():
-
-            # Skip empty selections.
+            # Use the full line when the caret has no selection.
             if region.empty():
-                next
+                region = self.view.line(region)
 
             # Get the selected text.
             selection = self.view.substr(region)
@@ -50,7 +50,6 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
 """
             # Add QuoteCharStart to every single line.
             for line in selection.split("\n"):
-
                 if len(line) == 0:
                     continue
 
@@ -64,18 +63,16 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
             code_marker_replace += selection
             code_marker_replace += "\n\n{quote_char_start}---{quote_char_end}\n"
 
-            code_marker_replace = code_marker_replace.replace(
-                "{quote_char_start}", quote_char_start
-            )
-            code_marker_replace = code_marker_replace.replace(
-                "{quote_char_end}", quote_char_end
-            )
-            code_marker_replace = code_marker_replace.replace(
-                "{code_marker}", code_marker
-            )
+            code_marker_replace = code_marker_replace.replace("{quote_char_start}", quote_char_start)
+            code_marker_replace = code_marker_replace.replace("{quote_char_end}", quote_char_end)
+            code_marker_replace = code_marker_replace.replace("{code_marker}", code_marker)
 
             # Replace the selection with transformed text
             self.view.replace(edit, region, code_marker_replace)
+            replaced = True
+
+        if not replaced:
+            return
 
         # Clear selection regions / cursor position.
         self.view.sel().clear()

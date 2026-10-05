@@ -1,7 +1,7 @@
-🌟 Version 1.0.2 🌟
+🌟 Version 1.0.3 🌟
 
-- Updated README.md and settings.
-- Updated package structure [generator-sublime-package](https://github.com/dennykorsukewitz/generator-sublime-package).
+- Fix: empty caret no longer splits text (`continue` instead of invalid `next`); quotes the full line when nothing is selected ([#1](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/issues/1)).
+- Marker date placeholders (`${year}`, `${month}`, `${day}`) use the local timezone.
 
 GitHub link - https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker
 

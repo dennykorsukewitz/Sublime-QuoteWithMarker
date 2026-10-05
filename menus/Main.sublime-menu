@@ -1,41 +1,35 @@
 [
     {
         "id": "preferences",
-        "children":
-        [
+        "children": [
             {
                 "id": "package-settings",
-                "children":
-                [
+                "children": [
                     {
                         "caption": "Quote with Marker",
-                        "children":
-                        [
+                        "children": [
                             {
                                 "caption": "README",
                                 "command": "open_file",
-                                "args":
-                                {
+                                "args": {
                                     "file": "${packages}/QuoteWithMarker/README.md"
                                 }
                             },
                             {
                                 "caption": "Settings",
                                 "command": "edit_settings",
-                                "args":
-                                {
+                                "args": {
                                     "base_file": "${packages}/QuoteWithMarker/QuoteWithMarker.sublime-settings",
                                     "default": "{\n$0\n}\n"
-                                },
+                                }
                             },
                             {
                                 "caption": "Key Bindings",
                                 "command": "edit_settings",
-                                "args":
-                                {
+                                "args": {
                                     "base_file": "${packages}/QuoteWithMarker/Default.sublime-keymap",
                                     "default": "{\n$0\n}\n"
-                                },
+                                }
                             }
                         ]
                     }

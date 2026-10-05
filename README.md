@@ -1,18 +1,18 @@
-<img align="right" width="150" height="150" src="doc/images/icon.png">
-
 # QuoteWithMarker
+
+<img align="right" width="150" height="150" alt="QuoteWithMarker" src="doc/images/icon.png">
 
 **QuoteWithMarker** is a Sublime Text package that quotes the selected area and adds a custom marker to it.
 
 | Repository | GitHub | Sublime Text |
-| ------ | ------ | ------ |
-| ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dennykorsukewitz/Sublime-QuoteWithMarker) | ![GitHub open issues](https://img.shields.io/github/issues/dennykorsukewitz/Sublime-QuoteWithMarker) ![GitHub closed issues](https://img.shields.io/github/issues-closed/dennykorsukewitz/Sublime-QuoteWithMarker?color=#44CC44) | ![Package Control Total](https://img.shields.io/packagecontrol/dt/Quote%20With%20Marker) |
-| ![GitHub license](https://img.shields.io/github/license/dennykorsukewitz/Sublime-QuoteWithMarker) | ![GitHub pull requests](https://img.shields.io/github/issues-pr/dennykorsukewitz/Sublime-QuoteWithMarker?label=PR) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dennykorsukewitz/Sublime-QuoteWithMarker?color=g&label=PR) | ![Package Control Month](https://img.shields.io/packagecontrol/dm/Quote%20With%20Marker) |
-| ![GitHub language count](https://img.shields.io/github/languages/count/dennykorsukewitz/Sublime-QuoteWithMarker?style=flat&label=language)  | ![GitHub contributors](https://img.shields.io/github/contributors/dennykorsukewitz/Sublime-QuoteWithMarker) | ![Package Control Week](https://img.shields.io/packagecontrol/dw/Quote%20With%20Marker) |
-| ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dennykorsukewitz/Sublime-QuoteWithMarker)  | ![GitHub downloads](https://img.shields.io/github/downloads/dennykorsukewitz/Sublime-QuoteWithMarker/total?style=flat) | ![Package Control Day](https://img.shields.io/packagecontrol/dd/Quote%20With%20Marker) |
+| --- | --- | --- |
+| ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dennykorsukewitz/Sublime-QuoteWithMarker)                       | ![GitHub open issues](https://img.shields.io/github/issues/dennykorsukewitz/Sublime-QuoteWithMarker) ![GitHub closed issues](https://img.shields.io/github/issues-closed/dennykorsukewitz/Sublime-QuoteWithMarker?color=#44CC44)                            | ![Package Control Total](https://img.shields.io/packagecontrol/dt/Quote%20With%20Marker) |
+| ![GitHub license](https://img.shields.io/github/license/dennykorsukewitz/Sublime-QuoteWithMarker)                                          | ![GitHub pull requests](https://img.shields.io/github/issues-pr/dennykorsukewitz/Sublime-QuoteWithMarker?label=PR) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dennykorsukewitz/Sublime-QuoteWithMarker?color=g&label=PR) | ![Package Control Month](https://img.shields.io/packagecontrol/dm/Quote%20With%20Marker) |
+| ![GitHub language count](https://img.shields.io/github/languages/count/dennykorsukewitz/Sublime-QuoteWithMarker?style=flat&label=language) | ![GitHub contributors](https://img.shields.io/github/contributors/dennykorsukewitz/Sublime-QuoteWithMarker)                                                                                                                                                 | ![Package Control Week](https://img.shields.io/packagecontrol/dw/Quote%20With%20Marker)  |
+| ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dennykorsukewitz/Sublime-QuoteWithMarker)                   | ![GitHub downloads](https://img.shields.io/github/downloads/dennykorsukewitz/Sublime-QuoteWithMarker/total?style=flat)                                                                                                                                      | ![Package Control Day](https://img.shields.io/packagecontrol/dd/Quote%20With%20Marker)   |
 
 | Status |
-| ------ |
+| --- |
 | [![GitHub commits since tagged version](https://img.shields.io/github/commits-since/dennykorsukewitz/Sublime-QuoteWithMarker/1.0.2/dev)](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/compare/1.0.2...dev) ![GitHub Workflow Lint](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/actions/workflows/lint.yml/badge.svg?branch=dev&style=flat&label=Lint) ![GitHub Workflow Pages](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/actions/workflows/pages.yml/badge.svg?branch=dev&style=flat&label=GitHub%20Pages) |
 
 ## Feature
@@ -34,7 +34,7 @@ There is also a start and end block for better display when merging.
 `Settings -> Package Settings -> Quote with Marker -> Settings`
 
 | Name | Description | Default Value |
-| - | - | - |
+| --- | --- | --- |
 | code_marker | Code Marker used in QuoteWithMarker function. | `MyMarker - ${year}.${month}.${day}` |
 
 ---
