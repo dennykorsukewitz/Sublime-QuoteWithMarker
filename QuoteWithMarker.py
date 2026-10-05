@@ -63,15 +63,9 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
             code_marker_replace += selection
             code_marker_replace += "\n\n{quote_char_start}---{quote_char_end}\n"
 
-            code_marker_replace = code_marker_replace.replace(
-                "{quote_char_start}", quote_char_start
-            )
-            code_marker_replace = code_marker_replace.replace(
-                "{quote_char_end}", quote_char_end
-            )
-            code_marker_replace = code_marker_replace.replace(
-                "{code_marker}", code_marker
-            )
+            code_marker_replace = code_marker_replace.replace("{quote_char_start}", quote_char_start)
+            code_marker_replace = code_marker_replace.replace("{quote_char_end}", quote_char_end)
+            code_marker_replace = code_marker_replace.replace("{code_marker}", code_marker)
 
             # Replace the selection with transformed text
             self.view.replace(edit, region, code_marker_replace)
