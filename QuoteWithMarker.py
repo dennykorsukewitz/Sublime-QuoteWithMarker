@@ -34,11 +34,12 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
                 quote_char_end = " " + var["value"]
 
         # Loop over all selections.
+        replaced = False
         for region in self.view.sel():
 
             # Skip empty selections.
             if region.empty():
-                next
+                continue
 
             # Get the selected text.
             selection = self.view.substr(region)
@@ -76,6 +77,10 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
 
             # Replace the selection with transformed text
             self.view.replace(edit, region, code_marker_replace)
+            replaced = True
+
+        if not replaced:
+            return
 
         # Clear selection regions / cursor position.
         self.view.sel().clear()

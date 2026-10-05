@@ -1,7 +1,6 @@
-🌟 Version 1.0.2 🌟
+🌟 Version 1.0.3 🌟
 
-- Updated README.md and settings.
-- Updated package structure [generator-sublime-package](https://github.com/dennykorsukewitz/generator-sublime-package).
+- Fix: Quote with Marker no longer inserts a marker at the caret when nothing is selected.
 
 GitHub link - https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker
 

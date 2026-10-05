@@ -4,6 +4,9 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 
 ---
 
+Version 1.0.3
+- Fix: skip empty selections (use `continue` instead of invalid `next`); no-op when nothing is selected.
+
 Version 1.0.2
 - Updated README.md and settings.
 - Updated package structure [generator-sublime-package](https://github.com/dennykorsukewitz/generator-sublime-package).
