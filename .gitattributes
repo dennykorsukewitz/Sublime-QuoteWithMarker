@@ -1,3 +1,6 @@
+# Normalize line endings; indent with spaces in the working tree
+* text=auto eol=lf
+
 # Exclude files from exporting
 
 ## Graphics

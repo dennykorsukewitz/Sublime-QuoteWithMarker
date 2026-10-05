@@ -1,6 +1,6 @@
 [
-  {
-    "caption": "QuoteWithMarker: Quote with Marker.",
-    "command": "quote_with_marker"
-  }
+    {
+        "caption": "QuoteWithMarker: Quote with Marker.",
+        "command": "quote_with_marker"
+    }
 ]
