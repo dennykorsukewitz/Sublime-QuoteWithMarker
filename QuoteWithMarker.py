@@ -17,7 +17,7 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
         code_marker_replace = ""
 
         code_marker = settings.get("code_marker") or "MyMarker"
-        current_time = datetime.now().astimezone().date()
+        current_time = datetime.now().date()
         day = current_time.strftime("%d")
         month = current_time.strftime("%m")
         year = current_time.strftime("%Y")

@@ -1,6 +1,5 @@
-# [1.0.3] - 2026-03-06
+# [1.0.4] - 2026-10-07
 
 ## Fixed
 
-- Empty caret no longer splits text; quotes the full line when nothing is selected ([#1](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/issues/1)).
-- Marker date placeholders (`${year}`, `${month}`, `${day}`) use the local timezone.
+- Command works again on Sublime Text’s default Python 3.3 plugin host: marker dates use `datetime.now().date()` instead of `astimezone()` on a naive datetime ([#1](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/issues/1)).

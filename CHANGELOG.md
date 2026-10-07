@@ -2,6 +2,12 @@
 
 All notable changes to the "QuoteWithMarker" package will be documented in this file.
 
+## [1.0.4]
+
+### Fixed
+
+- Command works again on Sublime Text’s default Python 3.3 plugin host: marker dates use `datetime.now().date()` instead of `astimezone()` on a naive datetime ([#1](https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker/issues/1)).
+
 ## [1.0.3]
 
 ### Fixed
@@ -10,7 +16,7 @@ All notable changes to the "QuoteWithMarker" package will be documented in this 
 
 ### Changed
 
-- Marker date placeholders (`${year}`, `${month}`, `${day}`) use the local timezone.
+- Marker date placeholders (`${year}`, `${month}`, `${day}`) use the local timezone (regression on Python 3.3 fixed in 1.0.4).
 
 ## [1.0.2]
 
