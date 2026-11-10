@@ -2,7 +2,7 @@
 
 All notable changes to the "QuoteWithMarker" package will be documented in this file.
 
-## [1.0.4]
+## [1.0.4] - 2026-10-07
 
 ### Fixed
 
