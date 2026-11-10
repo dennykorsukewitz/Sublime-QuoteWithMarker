@@ -1,4 +1,4 @@
-from datetime import datetime
+import time
 
 import sublime
 import sublime_plugin
@@ -17,10 +17,9 @@ class QuoteWithMarkerCommand(sublime_plugin.TextCommand):
         code_marker_replace = ""
 
         code_marker = settings.get("code_marker") or "MyMarker"
-        current_time = datetime.now().date()
-        day = current_time.strftime("%d")
-        month = current_time.strftime("%m")
-        year = current_time.strftime("%Y")
+        day = time.strftime("%d")
+        month = time.strftime("%m")
+        year = time.strftime("%Y")
         code_marker = code_marker.replace("${year}", year)
         code_marker = code_marker.replace("${month}", month)
         code_marker = code_marker.replace("${day}", day)
